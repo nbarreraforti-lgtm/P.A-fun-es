@@ -5,7 +5,7 @@ def Nmaior(num, num1, num2):
         indice =1
     elif num1 > num and num1 > num2:
         indice = 2
-    else:
+    elif num2 > num and num2 > num1:
         indice = 3
     return indice
 
