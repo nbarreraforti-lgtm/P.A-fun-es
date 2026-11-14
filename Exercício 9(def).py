@@ -7,5 +7,6 @@ def Fatorial(Num):
 Num = 0
 
 Num = int(input("Digite um número: "))
+Fnum = Fatorial(Num)
 
-print(f"O fatorial de {Num} é {Fatorial(Num)}")
+print(f"O fatorial de {Num} é {Fnum}")
